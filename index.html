@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      
+    img{
+        position: absolute;
+        top: 0;
+        left: 0;
+       height: 100vh;
+       width: 100%;;
+       z-index: -1;
+    }
+    .dom{
+        align-items: center;
+        align-content: center;
+        
+    }
+        div{
+            background-color: aqua;
+            text-align: center;
+            color: black;
+        }
+        p{
+            color: black;
+            font-size: 0.9rem;
+            
+        }
+        section{
+            color: black;
+        }
+        form{
+            color: black;
+            font-size: 0.9rem;
+        }
+        button{
+            background-color: aqua;
+            color: black;
+            border: none;
+            padding: 1rem 3rem ;
+            border-radius: 2rem;
+            margin-top: 2rem;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color: black;
+            color: aqua;
+             transition: 0.9s;
+        }
+        .c check{
+            cursor: pointer;
+        }
+        section coding{
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body >
+    <img src="./oudom.jpg" >
+    <form class="dom">
+       <div>Registration Form</div>
+       <h2></h2>
+        <p>username</p>
+        <input  type="username"placeholder="username">
+        <p>email</p>
+        <input  type="email"placeholder="email">
+        <p>password</p>
+        <input type="password"placeholder="password">
+        <h2></h2>
+        <section> 
+            <p>Gender</p>
+            <input  type="radio" name="coding" value="Male"/>Male
+            <input  type="radio" name="coding" value="Female"/>Female
+            <input  type="radio" name="coding" value="Others"/>Others
+        </section>  
+        <p>Phone Number</p>
+        <input type="Phone Number" placeholder="Phone Number">
+        <h2></h2>
+        <form class="c">
+            <input type="checkbox" value="check" name="check"/>check me out
+        </form><br>
+        <button>Sign in</button>
+</form>
+</body>
+</html>
